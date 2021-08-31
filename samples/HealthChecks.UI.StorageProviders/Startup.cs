@@ -44,6 +44,7 @@ namespace HealthChecks.UI.StorageProviders
                 .AddInMemoryStorage();
                 //.AddPostgreSqlStorage("Host=localhost;Username=postgres;Password=Password12!;Database=healthchecksui");
                 //.AddMySqlStorage("Host=localhost;User Id=root;Password=Password12!;Database=UI");
+                //.AddOracleStorage("Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=ORA11G)));User Id=root;Password=Password12!;");
 
         }
 
